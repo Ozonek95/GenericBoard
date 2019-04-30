@@ -18,6 +18,5 @@ class Board <V,T extends PrintModel<V>,S extends FieldContainer> {
   S getField(int fieldNumber){
     return fields.get(fieldNumber).getFigure();
   }
-
 }
 
